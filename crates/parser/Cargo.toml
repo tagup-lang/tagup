@@ -1,7 +1,0 @@
-[package]
-name = "tagup_parser"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tagup_scanner = { path = "../scanner" }

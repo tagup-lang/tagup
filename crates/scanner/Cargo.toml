@@ -1,6 +1,0 @@
-[package]
-name = "tagup_scanner"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]

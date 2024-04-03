@@ -1,4 +1,7 @@
 [workspace]
-members = [
-  "crates/*"
-]
+resolver = "2"
+members = ["parser", "compiler"]
+
+[workspace.dependencies]
+boa_engine = "0.18.0"
+boa_gc = "0.18.0"

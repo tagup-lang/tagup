@@ -1,0 +1,9 @@
+[package]
+name = "tagup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+parser = { path = "../parser" }
+boa_engine = { workspace = true }
+boa_gc = { workspace = true }
